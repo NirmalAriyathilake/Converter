@@ -87,4 +87,14 @@ class WeightViewController: UIViewController {
         }
     }
     
+    //hide keyboard
+    func dismissKeyboard(){
+        view.endEditing(true)
+    }
+    
+    @IBAction func txtGramDone(_ sender: Any) {
+        dismissKeyboard()
+    }
+    
+    
 }

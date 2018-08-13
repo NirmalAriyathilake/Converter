@@ -91,6 +91,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="txtGramChanged:" destination="9pv-A4-QxB" eventType="editingChanged" id="QkJ-fG-x6N"/>
+                                    <action selector="txtGramDone:" destination="9pv-A4-QxB" eventType="touchUpInside" id="ywL-jW-8Go"/>
                                 </connections>
                             </textField>
                         </subviews>
