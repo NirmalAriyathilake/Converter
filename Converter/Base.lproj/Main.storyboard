@@ -76,13 +76,6 @@
                                     <action selector="txtOunceChanged:" destination="9pv-A4-QxB" eventType="editingChanged" id="Mkx-Jf-crl"/>
                                 </connections>
                             </textField>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Y8-zm-Hkb">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Weight" id="QxU-VD-46a"/>
-                                </items>
-                            </navigationBar>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cUw-XC-JBk">
                                 <rect key="frame" x="165" y="122" width="194" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -97,7 +90,7 @@
                         <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Weight" image="icons8-weight-25" id="acW-dT-cKf"/>
+                    <navigationItem key="navigationItem" title="Weight" id="hPF-md-CvE"/>
                     <connections>
                         <outlet property="txtGram" destination="cUw-XC-JBk" id="qQN-wE-lIo"/>
                         <outlet property="txtKiloGram" destination="2qW-yq-W7V" id="2mn-fL-wpH"/>
@@ -107,7 +100,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="825" y="-309"/>
+            <point key="canvasLocation" x="798" y="-346"/>
         </scene>
         <!--Distance-->
         <scene sceneID="6G2-bq-e0K">
@@ -117,21 +110,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bYn-fa-nkk">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Distance" id="P6X-ll-GkI"/>
-                                </items>
-                            </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Metre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQq-oR-22f">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Metre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQq-oR-22f">
                                 <rect key="frame" x="16" y="126" width="45" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dCo-Nx-5Dc">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dCo-Nx-5Dc">
                                 <rect key="frame" x="165" y="122" width="194" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
@@ -139,14 +127,16 @@
                                     <action selector="txtMetreChanged:" destination="EyO-zw-mM0" eventType="editingChanged" id="I4x-JP-S6t"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Foot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aij-N5-EOS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Foot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aij-N5-EOS">
                                 <rect key="frame" x="16" y="178" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mRJ-IP-er5">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mRJ-IP-er5">
                                 <rect key="frame" x="165" y="174" width="194" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
@@ -154,14 +144,16 @@
                                     <action selector="txtFootChanged:" destination="EyO-zw-mM0" eventType="editingChanged" id="9EF-wI-wDj"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Yard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJ7-dV-nHX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJ7-dV-nHX">
                                 <rect key="frame" x="16" y="230" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GqV-Y1-89X">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GqV-Y1-89X">
                                 <rect key="frame" x="165" y="226" width="194" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
@@ -169,14 +161,16 @@
                                     <action selector="txtYardChanged:" destination="EyO-zw-mM0" eventType="editingChanged" id="2dT-gC-Xbc"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Kilometre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dew-8T-MbT">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kilometre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dew-8T-MbT">
                                 <rect key="frame" x="16" y="280" width="73" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lHg-TG-IpU">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lHg-TG-IpU">
                                 <rect key="frame" x="165" y="276" width="194" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
@@ -184,14 +178,16 @@
                                     <action selector="txtKilometresChanged:" destination="EyO-zw-mM0" eventType="editingChanged" id="aaS-8i-Fpb"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Mile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejF-gq-qib">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejF-gq-qib">
                                 <rect key="frame" x="16" y="329" width="32" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ehB-w2-q74">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ehB-w2-q74">
                                 <rect key="frame" x="165" y="325" width="194" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
@@ -201,21 +197,9 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="dPS-1Y-BbT" firstAttribute="trailing" secondItem="dCo-Nx-5Dc" secondAttribute="trailing" constant="16" id="0ej-GF-ZAt"/>
-                            <constraint firstItem="dPS-1Y-BbT" firstAttribute="trailing" secondItem="lHg-TG-IpU" secondAttribute="trailing" constant="16" id="412-Fd-Pl1"/>
-                            <constraint firstItem="dPS-1Y-BbT" firstAttribute="trailing" secondItem="ehB-w2-q74" secondAttribute="trailing" constant="16" id="DFW-1M-hM0"/>
-                            <constraint firstItem="aJ7-dV-nHX" firstAttribute="leading" secondItem="dPS-1Y-BbT" secondAttribute="leading" constant="16" id="Kez-XG-lcH"/>
-                            <constraint firstItem="aij-N5-EOS" firstAttribute="leading" secondItem="dPS-1Y-BbT" secondAttribute="leading" constant="16" id="P3u-eo-ImN"/>
-                            <constraint firstItem="dPS-1Y-BbT" firstAttribute="trailing" secondItem="GqV-Y1-89X" secondAttribute="trailing" constant="16" id="bkb-ml-ogd"/>
-                            <constraint firstItem="dew-8T-MbT" firstAttribute="leading" secondItem="dPS-1Y-BbT" secondAttribute="leading" constant="16" id="fgT-P5-bXr"/>
-                            <constraint firstItem="rQq-oR-22f" firstAttribute="leading" secondItem="dPS-1Y-BbT" secondAttribute="leading" constant="16" id="g9l-Qf-8S0"/>
-                            <constraint firstItem="dPS-1Y-BbT" firstAttribute="trailing" secondItem="mRJ-IP-er5" secondAttribute="trailing" constant="16" id="tMb-ax-TqK"/>
-                            <constraint firstItem="ejF-gq-qib" firstAttribute="leading" secondItem="dPS-1Y-BbT" secondAttribute="leading" constant="16" id="wh9-Fe-CGp"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="dPS-1Y-BbT"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Distance" image="icons8-map-pinpoint-25 (1)" id="goR-xV-NPW"/>
+                    <navigationItem key="navigationItem" title="Distance" id="MF2-gc-td5"/>
                     <connections>
                         <outlet property="txtFoot" destination="mRJ-IP-er5" id="YUF-CT-IWg"/>
                         <outlet property="txtKilometre" destination="lHg-TG-IpU" id="HVH-Ra-aJK"/>
@@ -226,7 +210,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ilx-Py-b0w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="825" y="377"/>
+            <point key="canvasLocation" x="1164" y="375.56221889055473"/>
         </scene>
         <!--Speed-->
         <scene sceneID="1f5-cv-jpL">
@@ -304,18 +288,11 @@
                                     <action selector="txtMilesPerHrChanged:" destination="ok5-j9-nUu" eventType="editingChanged" id="61r-iH-bWQ"/>
                                 </connections>
                             </textField>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C1o-ef-a8C">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Speed" id="qFT-l6-pEc"/>
-                                </items>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="F6P-Jk-Zgv"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Speed" image="icons8-speed-25" id="Yd1-xX-Qcj"/>
+                    <navigationItem key="navigationItem" title="Speed" id="dDT-MX-Grb"/>
                     <connections>
                         <outlet property="txtFeetPerMin" destination="HYd-2b-tBR" id="m5g-AM-5C3"/>
                         <outlet property="txtKilometrePerHr" destination="FJq-Wk-jzn" id="BUN-a2-Oca"/>
@@ -325,7 +302,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NsK-sU-lCj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1625" y="376"/>
+            <point key="canvasLocation" x="2094" y="447"/>
         </scene>
         <!--Temperature-->
         <scene sceneID="wg7-f3-ORb">
@@ -335,13 +312,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jdl-iz-Bpq">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Temperature" id="Iol-kx-bYS"/>
-                                </items>
-                            </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Celsius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLU-gj-Xuu">
                                 <rect key="frame" x="16" y="126" width="56" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -397,7 +367,7 @@
                         <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Temperature" image="icons8-temperature-25" id="cPa-gy-q4n"/>
+                    <navigationItem key="navigationItem" title="Temperature" id="W83-4a-BLe"/>
                     <connections>
                         <outlet property="txtCelsius" destination="k3G-UT-f1m" id="MpM-cT-kLl"/>
                         <outlet property="txtFahrenheit" destination="HwP-gc-AdQ" id="Drc-q5-yt1"/>
@@ -406,7 +376,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1625" y="-310"/>
+            <point key="canvasLocation" x="1761" y="-313"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -418,15 +388,91 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="EyO-zw-mM0" kind="relationship" relationship="viewControllers" id="Qlg-jD-mgP"/>
-                        <segue destination="ok5-j9-nUu" kind="relationship" relationship="viewControllers" id="1Ih-BL-5XE"/>
+                        <segue destination="6Lg-bV-xsW" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="vM7-7Z-dpa" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="L9f-W8-fc5" kind="relationship" relationship="viewControllers" id="Qlg-jD-mgP"/>
+                        <segue destination="4DA-1H-LbI" kind="relationship" relationship="viewControllers" id="1Ih-BL-5XE"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Weight-->
+        <scene sceneID="MtP-G6-AFk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Lg-bV-xsW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Weight" image="icons8-weight-25" id="acW-dT-cKf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bey-VJ-xEi">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="hPU-aP-yzr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xdK-Fs-w2j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="673" y="-412"/>
+        </scene>
+        <!--Temperature-->
+        <scene sceneID="2im-UM-Ea0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vM7-7Z-dpa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Temperature" image="icons8-temperature-25" id="cPa-gy-q4n"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PhG-Lz-Rb2">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="Tt4-o7-a6w"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gQg-Jj-6eA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1534" y="-403"/>
+        </scene>
+        <!--Distance-->
+        <scene sceneID="IuK-e8-1CA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="L9f-W8-fc5" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Distance" image="icons8-map-pinpoint-25 (1)" id="goR-xV-NPW"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EQJ-w0-dng">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="EyO-zw-mM0" kind="relationship" relationship="rootViewController" id="FWb-PY-4JV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BaT-uw-DqF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="824" y="376.91154422788611"/>
+        </scene>
+        <!--Speed-->
+        <scene sceneID="FMd-VN-vhl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4DA-1H-LbI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Speed" image="icons8-speed-25" id="Yd1-xX-Qcj"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bbP-A8-gUh">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ok5-j9-nUu" kind="relationship" relationship="rootViewController" id="th3-yi-aQh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lX5-mN-vkT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1963.2" y="375.11244377811096"/>
         </scene>
     </scenes>
     <resources>
