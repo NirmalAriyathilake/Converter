@@ -2,7 +2,7 @@
 //  DistanceViewController.swift
 //  Converter
 //
-//  Created by SE on 8/13/18.
+//  Created by IT15054128 on 8/13/18.
 //  Copyright © 2018 IT15054128. All rights reserved.
 //
 
@@ -23,13 +23,13 @@ class DistanceViewController: UIViewController {
     @IBAction func txtMetreChanged(_ sender: Any) {
         if(self.txtMetre.text != nil){
             //getting value of the text field
-            let metre:Double = Double(self.txtMetre.text!) ?? 0.0
+            let metre:Metre = Metre(Double(self.txtMetre.text!) ?? 0.0)
             
             //converting
-            let foot:Double = Double(metre * 3.28084)
-            let yard:Double = Double(metre * 1.09361)
-            let kilo:Double = Double(metre / 1000.0)
-            let mile:Double = Double(metre * 0.000621371)
+            let foot:Double = Foot.parseFoot(metre).value
+            let yard:Double = Yard.parseYard(metre).value
+            let kilo:Double = Kilometre.parseKilometre(metre).value
+            let mile:Double = Mile.parseMile(metre).value
             
             //assigning to text fields
             self.txtFoot.text = String(foot)
@@ -42,13 +42,13 @@ class DistanceViewController: UIViewController {
     @IBAction func txtFootChanged(_ sender: Any) {
         if(self.txtFoot.text != nil){
             //getting value of the text field
-            let foot:Double = Double(self.txtFoot.text!) ?? 0.0
+            let foot:Foot = Foot(Double(self.txtFoot.text!) ?? 0.0)
             
             //converting
-            let metre:Double = Double(foot * 0.3048 )
-            let yard:Double = Double(foot * 0.333333)
-            let kilo:Double = Double(foot * 0.0003048)
-            let mile:Double = Double(foot * 0.000189393939)
+            let metre:Double = Metre.parseMetre(foot).value
+            let yard:Double = Yard.parseYard(foot).value
+            let kilo:Double = Kilometre.parseKilometre(foot).value
+            let mile:Double = Mile.parseMile(foot).value
             
             //assigning to text fields
             self.txtMetre.text = String(metre)
@@ -61,13 +61,13 @@ class DistanceViewController: UIViewController {
     @IBAction func txtYardChanged(_ sender: Any) {
         if(self.txtYard.text != nil){
             //getting value of the text field
-            let yard:Double = Double(self.txtYard.text!) ?? 0.0
+            let yard:Yard = Yard(Double(self.txtYard.text!) ?? 0.0)
             
             //converting
-            let metre:Double = Double(yard * 0.9144 )
-            let foot:Double = Double(yard * 3.0)
-            let kilo:Double = Double(yard * 0.0009144)
-            let mile:Double = Double(yard * 0.000568)
+            let metre:Double = Metre.parseMetre(yard).value
+            let foot:Double = Foot.parseFoot(yard).value
+            let kilo:Double = Kilometre.parseKilometre(yard).value
+            let mile:Double = Mile.parseMile(yard).value
             
             //assigning to text fields
             self.txtMetre.text = String(metre)
@@ -80,13 +80,13 @@ class DistanceViewController: UIViewController {
     @IBAction func txtKilometresChanged(_ sender: Any) {
         if(self.txtKilometre.text != nil){
             //getting value of the text field
-            let kilo:Double = Double(self.txtKilometre.text!) ?? 0.0
+            let kilo:Kilometre = Kilometre(Double(self.txtKilometre.text!) ?? 0.0)
             
             //converting
-            let metre:Double = Double(kilo * 1000.0 )
-            let foot:Double = Double(kilo * 3280.84)
-            let yard:Double = Double(kilo * 1093.613298)
-            let mile:Double = Double(kilo * 0.621371)
+            let metre:Double = Metre.parseMetre(kilo).value
+            let foot:Double = Foot.parseFoot(kilo).value
+            let yard:Double = Yard.parseYard(kilo).value
+            let mile:Double = Mile.parseMile(kilo).value
             
             //assigning to text fields
             self.txtMetre.text = String(metre)
@@ -99,13 +99,13 @@ class DistanceViewController: UIViewController {
     @IBAction func txtMileChanged(_ sender: Any) {
         if(self.txtMile.text != nil){
             //getting value of the text field
-            let mile:Double = Double(self.txtMile.text!) ?? 0.0
+            let mile:Mile = Mile(Double(self.txtMile.text!) ?? 0.0)
             
             //converting
-            let metre:Double = Double(mile * 1609.344 )
-            let foot:Double = Double(mile * 5280.0)
-            let yard:Double = Double(mile * 1760.0)
-            let kilo:Double = Double(mile * 1.609344)
+            let metre:Double = Metre.parseMetre(mile).value
+            let foot:Double = Foot.parseFoot(mile).value
+            let yard:Double = Yard.parseYard(mile).value
+            let kilo:Double = Kilometre.parseKilometre(mile).value
             
             //assigning to text fields
             self.txtMetre.text = String(metre)

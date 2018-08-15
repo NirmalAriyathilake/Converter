@@ -2,7 +2,7 @@
 //  TemperatureViewController.swift
 //  Converter
 //
-//  Created by SE on 8/13/18.
+//  Created by IT15054128 on 8/13/18.
 //  Copyright © 2018 IT15054128. All rights reserved.
 //
 
@@ -21,11 +21,11 @@ class TemperatureViewController: UIViewController {
     @IBAction func txtCelsiusChanged(_ sender: Any) {
         if(self.txtCelsius.text != nil){
             //getting value of the text field
-            let celsius:Double = Double(self.txtCelsius.text!) ?? 0.0
+            let celsius:Celsius = Celsius(Double(self.txtCelsius.text!) ?? 0.0)
             
             //converting
-            let fahrenheit:Double = Double((celsius * 9/5.0) + 32)
-            let kelvin:Double = Double(celsius + 273.15)
+            let fahrenheit:Double = Fahrenheit.parseFahrenheit(celsius).value
+            let kelvin:Double = Kelvin.parseKelvin(celsius).value
             
             //assigning to text fields
             self.txtFahrenheit.text = String(fahrenheit)
@@ -36,11 +36,11 @@ class TemperatureViewController: UIViewController {
     @IBAction func txtFahrenheitChanged(_ sender: Any) {
         if(self.txtFahrenheit.text != nil){
             //getting value of the text field
-            let fahrenheit:Double = Double(self.txtFahrenheit.text!) ?? 0.0
+            let fahrenheit:Fahrenheit = Fahrenheit(Double(self.txtFahrenheit.text!) ?? 0.0)
             
             //converting
-            let celsius:Double = Double((fahrenheit - 32) * 5.0/9)
-            let kelvin:Double = Double((fahrenheit + 459.67) * 5.0/9)
+            let celsius:Double = Celsius.parseCelsius(fahrenheit).value
+            let kelvin:Double = Kelvin.parseKelvin(fahrenheit).value
             
             //assigning to text fields
             self.txtCelsius.text = String(celsius)
@@ -51,11 +51,11 @@ class TemperatureViewController: UIViewController {
     @IBAction func txtKelvinChanged(_ sender: Any) {
         if(self.txtKelvin.text != nil){
             //getting value of the text field
-            let kelvin:Double = Double(self.txtKelvin.text!) ?? 0.0
+            let kelvin:Kelvin = Kelvin(Double(self.txtKelvin.text!) ?? 0.0)
             
             //converting
-            let fahrenheit:Double = Double(kelvin - 273.15)
-            let celsius:Double = Double((kelvin * 9/5.0) - 459.67)
+            let fahrenheit:Double = Fahrenheit.parseFahrenheit(kelvin).value
+            let celsius:Double = Celsius.parseCelsius(kelvin).value
             
             //assigning to text fields
             self.txtFahrenheit.text = String(fahrenheit)

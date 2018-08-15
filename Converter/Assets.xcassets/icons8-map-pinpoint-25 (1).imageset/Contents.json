@@ -1,16 +1,16 @@
 {
   "images" : [
     {
-      "idiom" : "iphone",
+      "idiom" : "universal",
+      "filename" : "icons8-map-pinpoint-25 (1).png",
       "scale" : "1x"
     },
     {
-      "idiom" : "iphone",
+      "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
-      "filename" : "speed.png",
+      "idiom" : "universal",
       "scale" : "3x"
     }
   ],
