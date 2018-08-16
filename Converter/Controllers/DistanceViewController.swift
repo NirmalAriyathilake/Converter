@@ -115,4 +115,13 @@ class DistanceViewController: UIViewController {
         }
     }
     
+    //hide keyboard
+    func dismissKeyboard(){
+        view.endEditing(true)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        dismissKeyboard();
+    }
+    
 }

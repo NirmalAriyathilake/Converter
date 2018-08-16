@@ -22,12 +22,12 @@ class SpeedViewController: UIViewController {
     @IBAction func txtMetrePerSecChanged(_ sender: Any) {
         if(self.txtMetrePerSec.text != nil){
             //getting value of the text field
-            let metrePerSec:Double = Double(self.txtMetrePerSec.text!) ?? 0.0
+            let metrePerSec:MetresPerSec = MetresPerSec(Double(self.txtMetrePerSec.text!) ?? 0.0)
             
             //converting
-            let feetPerMin:Double = Double(metrePerSec * 196.85)
-            let kiloPerHr:Double = Double(metrePerSec * 3.6)
-            let milesPerHr:Double = Double(metrePerSec * 2.23694)
+            let feetPerMin:Double = FeetPerMin.parseFeetPerMin(metrePerSec).value
+            let kiloPerHr:Double = KilometresPerHour.parseKilometresPerHour(metrePerSec).value
+            let milesPerHr:Double = MilesPerHour.parseMilesPerHour(metrePerSec).value
             
             //assigning to text fields
             self.txtFeetPerMin.text = String(feetPerMin)
@@ -39,12 +39,12 @@ class SpeedViewController: UIViewController {
     @IBAction func txtFeetPerMinChanged(_ sender: Any) {
         if(self.txtFeetPerMin.text != nil){
             //getting value of the text field
-            let feetPerMin:Double = Double(self.txtFeetPerMin.text!) ?? 0.0
+            let feetPerMin:FeetPerMin = FeetPerMin(Double(self.txtFeetPerMin.text!) ?? 0.0)
             
             //converting
-            let metrePerSec:Double = Double(feetPerMin * 0.00508)
-            let kiloPerHr:Double = Double(feetPerMin * 0.018288)
-            let milesPerHr:Double = Double(feetPerMin * 0.0113636)
+            let metrePerSec:Double = MetresPerSec.parseMetresPerSec(feetPerMin).value
+            let kiloPerHr:Double = KilometresPerHour.parseKilometresPerHour(feetPerMin).value
+            let milesPerHr:Double = MilesPerHour.parseMilesPerHour(feetPerMin).value
             
             //assigning to text fields
             self.txtMetrePerSec.text = String(metrePerSec)
@@ -56,12 +56,12 @@ class SpeedViewController: UIViewController {
     @IBAction func txtKiloPerHrChanged(_ sender: Any) {
         if(self.txtKilometrePerHr.text != nil){
             //getting value of the text field
-            let kiloPerHr:Double = Double(self.txtKilometrePerHr.text!) ?? 0.0
+            let kiloPerHr:KilometresPerHour = KilometresPerHour(Double(self.txtKilometrePerHr.text!) ?? 0.0)
             
             //converting
-            let metrePerSec:Double = Double(kiloPerHr * 0.277778)
-            let feetPerMin:Double = Double(kiloPerHr * 54.6807)
-            let milesPerHr:Double = Double(kiloPerHr * 0.621371)
+            let metrePerSec:Double = MetresPerSec.parseMetresPerSec(kiloPerHr).value
+            let feetPerMin:Double = FeetPerMin.parseFeetPerMin(kiloPerHr).value
+            let milesPerHr:Double = MilesPerHour.parseMilesPerHour(kiloPerHr).value
             
             //assigning to text fields
             self.txtMetrePerSec.text = String(metrePerSec)
@@ -73,18 +73,27 @@ class SpeedViewController: UIViewController {
     @IBAction func txtMilesPerHrChanged(_ sender: Any) {
         if(self.txtMilesPerHr.text != nil){
             //getting value of the text field
-            let milesPerHr:Double = Double(self.txtMilesPerHr.text!) ?? 0.0
+            let milesPerHr:MilesPerHour = MilesPerHour(Double(self.txtMilesPerHr.text!) ?? 0.0)
             
             //converting
-            let metrePerSec:Double = Double(milesPerHr * 0.44704)
-            let feetPerMin:Double = Double(milesPerHr * 88)
-            let kiloPerHr:Double = Double(milesPerHr * 1.60934)
+            let metrePerSec:Double = MetresPerSec.parseMetresPerSec(milesPerHr).value
+            let feetPerMin:Double = FeetPerMin.parseFeetPerMin(milesPerHr).value
+            let kiloPerHr:Double = KilometresPerHour.parseKilometresPerHour(milesPerHr).value
             
             //assigning to text fields
             self.txtMetrePerSec.text = String(metrePerSec)
             self.txtFeetPerMin.text = String(feetPerMin)
             self.txtKilometrePerHr.text = String(kiloPerHr)
         }
+    }
+    
+    //hide keyboard
+    func dismissKeyboard(){
+        view.endEditing(true)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        dismissKeyboard();
     }
     
 }

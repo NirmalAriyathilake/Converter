@@ -62,4 +62,13 @@ class TemperatureViewController: UIViewController {
             self.txtCelsius.text = String(celsius)
         }
     }
+    
+    //hide keyboard
+    func dismissKeyboard(){
+        view.endEditing(true)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        dismissKeyboard();
+    }
 }

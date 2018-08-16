@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92173EF221253C6900DFA87C /* MetresPerSec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92173EF121253C6900DFA87C /* MetresPerSec.swift */; };
+		92173EF421253C8700DFA87C /* KilometresPerHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92173EF321253C8700DFA87C /* KilometresPerHour.swift */; };
+		92173EF621253CA300DFA87C /* FeetPerMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92173EF521253CA300DFA87C /* FeetPerMin.swift */; };
+		92173EF821253CCB00DFA87C /* MilesPerHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92173EF721253CCB00DFA87C /* MilesPerHour.swift */; };
 		921FC14D21214C950014037F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FC14C21214C950014037F /* AppDelegate.swift */; };
 		921FC15421214C950014037F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921FC15221214C950014037F /* Main.storyboard */; };
 		921FC15621214C950014037F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921FC15521214C950014037F /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		92173EF121253C6900DFA87C /* MetresPerSec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetresPerSec.swift; sourceTree = "<group>"; };
+		92173EF321253C8700DFA87C /* KilometresPerHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KilometresPerHour.swift; sourceTree = "<group>"; };
+		92173EF521253CA300DFA87C /* FeetPerMin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeetPerMin.swift; sourceTree = "<group>"; };
+		92173EF721253CCB00DFA87C /* MilesPerHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilesPerHour.swift; sourceTree = "<group>"; };
 		921FC14921214C950014037F /* Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Converter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		921FC14C21214C950014037F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		921FC15321214C950014037F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -73,6 +81,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92173EF921255DD800DFA87C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				921FC162212159E30014037F /* WeightViewController.swift */,
+				921FC164212167620014037F /* TemperatureViewController.swift */,
+				921FC16621216B700014037F /* DistanceViewController.swift */,
+				921FC168212177300014037F /* SpeedViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		921FC14021214C950014037F = {
 			isa = PBXGroup;
 			children = (
@@ -92,16 +111,13 @@
 		921FC14B21214C950014037F /* Converter */ = {
 			isa = PBXGroup;
 			children = (
+				92173EF921255DD800DFA87C /* Controllers */,
 				9224E6DB212415DF008BAA99 /* Model */,
 				921FC14C21214C950014037F /* AppDelegate.swift */,
 				921FC15221214C950014037F /* Main.storyboard */,
 				921FC15521214C950014037F /* Assets.xcassets */,
 				921FC15721214C950014037F /* LaunchScreen.storyboard */,
 				921FC15A21214C950014037F /* Info.plist */,
-				921FC162212159E30014037F /* WeightViewController.swift */,
-				921FC164212167620014037F /* TemperatureViewController.swift */,
-				921FC16621216B700014037F /* DistanceViewController.swift */,
-				921FC168212177300014037F /* SpeedViewController.swift */,
 			);
 			path = Converter;
 			sourceTree = "<group>";
@@ -158,6 +174,10 @@
 			isa = PBXGroup;
 			children = (
 				9224E6FE21243AD1008BAA99 /* Speed.swift */,
+				92173EF121253C6900DFA87C /* MetresPerSec.swift */,
+				92173EF321253C8700DFA87C /* KilometresPerHour.swift */,
+				92173EF521253CA300DFA87C /* FeetPerMin.swift */,
+				92173EF721253CCB00DFA87C /* MilesPerHour.swift */,
 			);
 			path = Speed;
 			sourceTree = "<group>";
@@ -237,10 +257,12 @@
 				9224E6F621242DBC008BAA99 /* Foot.swift in Sources */,
 				9224E6E4212415DF008BAA99 /* Pound.swift in Sources */,
 				9224E6E3212415DF008BAA99 /* Ounce.swift in Sources */,
+				92173EF221253C6900DFA87C /* MetresPerSec.swift in Sources */,
 				9224E6FA21242DEF008BAA99 /* Kilometre.swift in Sources */,
 				9224E6FC21242E12008BAA99 /* Mile.swift in Sources */,
 				9224E6E2212415DF008BAA99 /* Kilogram.swift in Sources */,
 				9224E6E1212415DF008BAA99 /* Gram.swift in Sources */,
+				92173EF821253CCB00DFA87C /* MilesPerHour.swift in Sources */,
 				9224E6F421242CED008BAA99 /* Distance.swift in Sources */,
 				921FC163212159E30014037F /* WeightViewController.swift in Sources */,
 				9224E6E5212415DF008BAA99 /* Weight.swift in Sources */,
@@ -249,7 +271,9 @@
 				9224E6F221242CD8008BAA99 /* Metre.swift in Sources */,
 				9224E6F821242DDA008BAA99 /* Yard.swift in Sources */,
 				921FC169212177300014037F /* SpeedViewController.swift in Sources */,
+				92173EF421253C8700DFA87C /* KilometresPerHour.swift in Sources */,
 				921FC16721216B700014037F /* DistanceViewController.swift in Sources */,
+				92173EF621253CA300DFA87C /* FeetPerMin.swift in Sources */,
 				9224E6EB21242486008BAA99 /* Fahrenheit.swift in Sources */,
 				921FC14D21214C950014037F /* AppDelegate.swift in Sources */,
 				9224E6FF21243AD1008BAA99 /* Speed.swift in Sources */,
