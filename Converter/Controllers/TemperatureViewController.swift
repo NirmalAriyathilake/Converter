@@ -16,6 +16,12 @@ class TemperatureViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Clear Fields
+        self.txtCelsius.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
+        self.txtFahrenheit.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
+        self.txtKelvin.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
+        
     }
     
     @IBAction func txtCelsiusChanged(_ sender: Any) {
@@ -73,22 +79,10 @@ class TemperatureViewController: UIViewController {
     }
     
     //clear all
-    func clearAll(){
+    @objc func clearAll(){
         self.txtKelvin.text = ""
         self.txtCelsius.text = ""
         self.txtFahrenheit.text = ""
     }
     
-    @IBAction func txtCelsiusBegin(_ sender: Any) {
-        clearAll()
-    }
-    
-    @IBAction func txtFahrenheitBegin(_ sender: Any) {
-        clearAll()
-    }
-    
-    @IBAction func txtKelvinBegin(_ sender: Any) {
-        clearAll()
-    }
-
 }

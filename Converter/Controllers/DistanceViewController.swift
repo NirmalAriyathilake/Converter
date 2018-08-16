@@ -18,6 +18,13 @@ class DistanceViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //clear text fields
+        self.txtMetre.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
+        self.txtFoot.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
+        self.txtYard.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
+        self.txtKilometre.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
+        self.txtMile.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
     }
     
     @IBAction func txtMetreChanged(_ sender: Any) {
@@ -125,33 +132,14 @@ class DistanceViewController: UIViewController {
     }
     
     //clear all
-    func clearAll(){
+    @objc func clearAll(){
         self.txtMetre.text = ""
         self.txtFoot.text = ""
         self.txtYard.text = ""
         self.txtKilometre.text = ""
         self.txtMile.text = ""
     }
-    
-    @IBAction func txtMetreBegin(_ sender: Any) {
-        clearAll()
-    }
-    
-    @IBAction func txtFootBegin(_ sender: Any) {
-        clearAll()
-    }
-    
-    @IBAction func txtYardBegin(_ sender: Any) {
-        clearAll()
-    }
-    
-    @IBAction func txtKilometreBegin(_ sender: Any) {
-        clearAll()
-    }
-    
-    @IBAction func txtMileBegin(_ sender: Any) {
-        clearAll()
-    }
+
     
     
     

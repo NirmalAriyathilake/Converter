@@ -31,7 +31,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtKiloBegin:" destination="9pv-A4-QxB" eventType="editingDidBegin" id="6JV-hv-hou"/>
                                     <action selector="txtKilogramChanged:" destination="9pv-A4-QxB" eventType="editingChanged" id="TVQ-Oz-zT1"/>
                                 </connections>
                             </textField>
@@ -47,7 +46,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtPoundBegin:" destination="9pv-A4-QxB" eventType="editingDidBegin" id="bhH-AR-FEO"/>
                                     <action selector="txtPoundChanged:" destination="9pv-A4-QxB" eventType="editingChanged" id="2eK-Ih-sY6"/>
                                 </connections>
                             </textField>
@@ -63,7 +61,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtOunceBegin:" destination="9pv-A4-QxB" eventType="editingDidBegin" id="Flx-Qb-ZEp"/>
                                     <action selector="txtOunceChanged:" destination="9pv-A4-QxB" eventType="editingChanged" id="Mkx-Jf-crl"/>
                                 </connections>
                             </textField>
@@ -73,7 +70,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtGramBegin:" destination="9pv-A4-QxB" eventType="editingDidBegin" id="2Kt-Qx-p9a"/>
                                     <action selector="txtGramChanged:" destination="9pv-A4-QxB" eventType="editingChanged" id="QkJ-fG-x6N"/>
                                 </connections>
                             </textField>
@@ -144,7 +140,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtMetreBegin:" destination="EyO-zw-mM0" eventType="editingDidBegin" id="06m-Fs-vWv"/>
                                     <action selector="txtMetreChanged:" destination="EyO-zw-mM0" eventType="editingChanged" id="I4x-JP-S6t"/>
                                 </connections>
                             </textField>
@@ -160,7 +155,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtFootBegin:" destination="EyO-zw-mM0" eventType="editingDidBegin" id="MAs-4k-0Ft"/>
                                     <action selector="txtFootChanged:" destination="EyO-zw-mM0" eventType="editingChanged" id="9EF-wI-wDj"/>
                                 </connections>
                             </textField>
@@ -176,7 +170,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtYardBegin:" destination="EyO-zw-mM0" eventType="editingDidBegin" id="bj2-3T-NfN"/>
                                     <action selector="txtYardChanged:" destination="EyO-zw-mM0" eventType="editingChanged" id="2dT-gC-Xbc"/>
                                 </connections>
                             </textField>
@@ -192,7 +185,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtKilometreBegin:" destination="EyO-zw-mM0" eventType="editingDidBegin" id="uKp-aW-lro"/>
                                     <action selector="txtKilometresChanged:" destination="EyO-zw-mM0" eventType="editingChanged" id="aaS-8i-Fpb"/>
                                 </connections>
                             </textField>
@@ -208,7 +200,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtMileBegin:" destination="EyO-zw-mM0" eventType="editingDidBegin" id="AWr-1D-nLr"/>
                                     <action selector="txtMileChanged:" destination="EyO-zw-mM0" eventType="editingChanged" id="Rgu-qd-YH1"/>
                                 </connections>
                             </textField>
@@ -389,7 +380,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtCelsiusBegin:" destination="8rJ-Kc-sve" eventType="editingDidBegin" id="Mda-Z3-fAL"/>
                                     <action selector="txtCelsiusChanged:" destination="8rJ-Kc-sve" eventType="editingChanged" id="W1k-kw-CBp"/>
                                 </connections>
                             </textField>
@@ -405,7 +395,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtFahrenheitBegin:" destination="8rJ-Kc-sve" eventType="editingDidBegin" id="crF-6f-rn3"/>
                                     <action selector="txtFahrenheitChanged:" destination="8rJ-Kc-sve" eventType="editingChanged" id="hGs-Cs-kwS"/>
                                 </connections>
                             </textField>
@@ -421,7 +410,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtKelvinBegin:" destination="8rJ-Kc-sve" eventType="editingDidBegin" id="QxF-fG-0c2"/>
                                     <action selector="txtKelvinChanged:" destination="8rJ-Kc-sve" eventType="editingChanged" id="29i-Vl-3DX"/>
                                 </connections>
                             </textField>

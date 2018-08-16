@@ -17,6 +17,12 @@ class WeightViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //clear Fields
+        self.txtGram.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
+        self.txtKiloGram.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
+        self.txtPound.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
+        self.txtOunce.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
     }
     
     @IBAction func txtGramChanged(_ sender: Any) {
@@ -97,27 +103,11 @@ class WeightViewController: UIViewController {
     }
     
     //clear all
-    func clearAll(){
+    @objc func clearAll(){
         self.txtGram.text = ""
         self.txtKiloGram.text = ""
         self.txtPound.text = ""
         self.txtOunce.text = ""
-    }
-    
-    @IBAction func txtGramBegin(_ sender: Any) {
-        clearAll()
-    }
-    
-    @IBAction func txtKiloBegin(_ sender: Any) {
-        clearAll()
-    }
-    
-    @IBAction func txtPoundBegin(_ sender: Any) {
-        clearAll()
-    }
-    
-    @IBAction func txtOunceBegin(_ sender: Any) {
-        clearAll()
     }
     
 }
