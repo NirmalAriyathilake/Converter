@@ -124,4 +124,35 @@ class DistanceViewController: UIViewController {
         dismissKeyboard();
     }
     
+    //clear all
+    func clearAll(){
+        self.txtMetre.text = ""
+        self.txtFoot.text = ""
+        self.txtYard.text = ""
+        self.txtKilometre.text = ""
+        self.txtMile.text = ""
+    }
+    
+    @IBAction func txtMetreBegin(_ sender: Any) {
+        clearAll()
+    }
+    
+    @IBAction func txtFootBegin(_ sender: Any) {
+        clearAll()
+    }
+    
+    @IBAction func txtYardBegin(_ sender: Any) {
+        clearAll()
+    }
+    
+    @IBAction func txtKilometreBegin(_ sender: Any) {
+        clearAll()
+    }
+    
+    @IBAction func txtMileBegin(_ sender: Any) {
+        clearAll()
+    }
+    
+    
+    
 }

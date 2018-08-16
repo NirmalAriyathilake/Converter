@@ -17,6 +17,12 @@ class SpeedViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //clear text fields
+        self.txtMilesPerHr.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
+        self.txtMetrePerSec.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
+        self.txtFeetPerMin.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
+        self.txtKilometrePerHr.addTarget(self, action: #selector(clearAll), for: UIControlEvents.editingDidBegin)
     }
     
     @IBAction func txtMetrePerSecChanged(_ sender: Any) {
@@ -95,5 +101,15 @@ class SpeedViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         dismissKeyboard();
     }
+    
+    //clear all
+    @objc func clearAll(){
+        self.txtMetrePerSec.text = ""
+        self.txtFeetPerMin.text = ""
+        self.txtKilometrePerHr.text = ""
+        self.txtMilesPerHr.text = ""
+    }
+    
+    
     
 }

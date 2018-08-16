@@ -71,4 +71,24 @@ class TemperatureViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         dismissKeyboard();
     }
+    
+    //clear all
+    func clearAll(){
+        self.txtKelvin.text = ""
+        self.txtCelsius.text = ""
+        self.txtFahrenheit.text = ""
+    }
+    
+    @IBAction func txtCelsiusBegin(_ sender: Any) {
+        clearAll()
+    }
+    
+    @IBAction func txtFahrenheitBegin(_ sender: Any) {
+        clearAll()
+    }
+    
+    @IBAction func txtKelvinBegin(_ sender: Any) {
+        clearAll()
+    }
+
 }

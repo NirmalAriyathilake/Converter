@@ -96,6 +96,28 @@ class WeightViewController: UIViewController {
         dismissKeyboard();
     }
     
+    //clear all
+    func clearAll(){
+        self.txtGram.text = ""
+        self.txtKiloGram.text = ""
+        self.txtPound.text = ""
+        self.txtOunce.text = ""
+    }
     
+    @IBAction func txtGramBegin(_ sender: Any) {
+        clearAll()
+    }
+    
+    @IBAction func txtKiloBegin(_ sender: Any) {
+        clearAll()
+    }
+    
+    @IBAction func txtPoundBegin(_ sender: Any) {
+        clearAll()
+    }
+    
+    @IBAction func txtOunceBegin(_ sender: Any) {
+        clearAll()
+    }
     
 }
