@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92173EF221253C6900DFA87C /* MetresPerSec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92173EF121253C6900DFA87C /* MetresPerSec.swift */; };
-		92173EF421253C8700DFA87C /* KilometresPerHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92173EF321253C8700DFA87C /* KilometresPerHour.swift */; };
-		92173EF621253CA300DFA87C /* FeetPerMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92173EF521253CA300DFA87C /* FeetPerMin.swift */; };
-		92173EF821253CCB00DFA87C /* MilesPerHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92173EF721253CCB00DFA87C /* MilesPerHour.swift */; };
 		921FC14D21214C950014037F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FC14C21214C950014037F /* AppDelegate.swift */; };
 		921FC15421214C950014037F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921FC15221214C950014037F /* Main.storyboard */; };
 		921FC15621214C950014037F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921FC15521214C950014037F /* Assets.xcassets */; };
@@ -19,29 +15,29 @@
 		921FC165212167620014037F /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FC164212167620014037F /* TemperatureViewController.swift */; };
 		921FC16721216B700014037F /* DistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FC16621216B700014037F /* DistanceViewController.swift */; };
 		921FC169212177300014037F /* SpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FC168212177300014037F /* SpeedViewController.swift */; };
-		9224E6E1212415DF008BAA99 /* Gram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6DC212415DF008BAA99 /* Gram.swift */; };
-		9224E6E2212415DF008BAA99 /* Kilogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6DD212415DF008BAA99 /* Kilogram.swift */; };
-		9224E6E3212415DF008BAA99 /* Ounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6DE212415DF008BAA99 /* Ounce.swift */; };
-		9224E6E4212415DF008BAA99 /* Pound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6DF212415DF008BAA99 /* Pound.swift */; };
-		9224E6E5212415DF008BAA99 /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6E0212415DF008BAA99 /* Weight.swift */; };
-		9224E6E921242431008BAA99 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6E821242431008BAA99 /* Temperature.swift */; };
-		9224E6EB21242486008BAA99 /* Fahrenheit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6EA21242486008BAA99 /* Fahrenheit.swift */; };
-		9224E6ED212424AD008BAA99 /* Kelvin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6EC212424AD008BAA99 /* Kelvin.swift */; };
-		9224E6EF21242654008BAA99 /* Celsius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6EE21242654008BAA99 /* Celsius.swift */; };
-		9224E6F221242CD8008BAA99 /* Metre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6F121242CD8008BAA99 /* Metre.swift */; };
-		9224E6F421242CED008BAA99 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6F321242CED008BAA99 /* Distance.swift */; };
-		9224E6F621242DBC008BAA99 /* Foot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6F521242DBC008BAA99 /* Foot.swift */; };
-		9224E6F821242DDA008BAA99 /* Yard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6F721242DDA008BAA99 /* Yard.swift */; };
-		9224E6FA21242DEF008BAA99 /* Kilometre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6F921242DEF008BAA99 /* Kilometre.swift */; };
-		9224E6FC21242E12008BAA99 /* Mile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6FB21242E12008BAA99 /* Mile.swift */; };
-		9224E6FF21243AD1008BAA99 /* Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224E6FE21243AD1008BAA99 /* Speed.swift */; };
+		92E8D3552128679B007EEDB7 /* Kilogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D3502128679B007EEDB7 /* Kilogram.swift */; };
+		92E8D3562128679B007EEDB7 /* Gram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D3512128679B007EEDB7 /* Gram.swift */; };
+		92E8D3572128679B007EEDB7 /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D3522128679B007EEDB7 /* Weight.swift */; };
+		92E8D3582128679B007EEDB7 /* Ounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D3532128679B007EEDB7 /* Ounce.swift */; };
+		92E8D3592128679B007EEDB7 /* Pound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D3542128679B007EEDB7 /* Pound.swift */; };
+		92E8D35F212867C7007EEDB7 /* Celsius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D35B212867C7007EEDB7 /* Celsius.swift */; };
+		92E8D360212867C7007EEDB7 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D35C212867C7007EEDB7 /* Temperature.swift */; };
+		92E8D361212867C7007EEDB7 /* Fahrenheit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D35D212867C7007EEDB7 /* Fahrenheit.swift */; };
+		92E8D362212867C7007EEDB7 /* Kelvin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D35E212867C7007EEDB7 /* Kelvin.swift */; };
+		92E8D369212867CF007EEDB7 /* FeetPerMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D364212867CF007EEDB7 /* FeetPerMin.swift */; };
+		92E8D36A212867CF007EEDB7 /* KilometresPerHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D365212867CF007EEDB7 /* KilometresPerHour.swift */; };
+		92E8D36B212867CF007EEDB7 /* MetresPerSec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D366212867CF007EEDB7 /* MetresPerSec.swift */; };
+		92E8D36C212867CF007EEDB7 /* MilesPerHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D367212867CF007EEDB7 /* MilesPerHour.swift */; };
+		92E8D36D212867CF007EEDB7 /* Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D368212867CF007EEDB7 /* Speed.swift */; };
+		92E8D375212867D7007EEDB7 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D36F212867D7007EEDB7 /* Distance.swift */; };
+		92E8D376212867D7007EEDB7 /* Foot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D370212867D7007EEDB7 /* Foot.swift */; };
+		92E8D377212867D7007EEDB7 /* Kilometre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D371212867D7007EEDB7 /* Kilometre.swift */; };
+		92E8D378212867D7007EEDB7 /* Metre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D372212867D7007EEDB7 /* Metre.swift */; };
+		92E8D379212867D7007EEDB7 /* Mile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D373212867D7007EEDB7 /* Mile.swift */; };
+		92E8D37A212867D7007EEDB7 /* Yard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D374212867D7007EEDB7 /* Yard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		92173EF121253C6900DFA87C /* MetresPerSec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetresPerSec.swift; sourceTree = "<group>"; };
-		92173EF321253C8700DFA87C /* KilometresPerHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KilometresPerHour.swift; sourceTree = "<group>"; };
-		92173EF521253CA300DFA87C /* FeetPerMin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeetPerMin.swift; sourceTree = "<group>"; };
-		92173EF721253CCB00DFA87C /* MilesPerHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilesPerHour.swift; sourceTree = "<group>"; };
 		921FC14921214C950014037F /* Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Converter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		921FC14C21214C950014037F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		921FC15321214C950014037F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,22 +48,26 @@
 		921FC164212167620014037F /* TemperatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureViewController.swift; sourceTree = "<group>"; };
 		921FC16621216B700014037F /* DistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewController.swift; sourceTree = "<group>"; };
 		921FC168212177300014037F /* SpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedViewController.swift; sourceTree = "<group>"; };
-		9224E6DC212415DF008BAA99 /* Gram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gram.swift; sourceTree = "<group>"; };
-		9224E6DD212415DF008BAA99 /* Kilogram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kilogram.swift; sourceTree = "<group>"; };
-		9224E6DE212415DF008BAA99 /* Ounce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ounce.swift; sourceTree = "<group>"; };
-		9224E6DF212415DF008BAA99 /* Pound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pound.swift; sourceTree = "<group>"; };
-		9224E6E0212415DF008BAA99 /* Weight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
-		9224E6E821242431008BAA99 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
-		9224E6EA21242486008BAA99 /* Fahrenheit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fahrenheit.swift; sourceTree = "<group>"; };
-		9224E6EC212424AD008BAA99 /* Kelvin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelvin.swift; sourceTree = "<group>"; };
-		9224E6EE21242654008BAA99 /* Celsius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celsius.swift; sourceTree = "<group>"; };
-		9224E6F121242CD8008BAA99 /* Metre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metre.swift; sourceTree = "<group>"; };
-		9224E6F321242CED008BAA99 /* Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
-		9224E6F521242DBC008BAA99 /* Foot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foot.swift; sourceTree = "<group>"; };
-		9224E6F721242DDA008BAA99 /* Yard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yard.swift; sourceTree = "<group>"; };
-		9224E6F921242DEF008BAA99 /* Kilometre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kilometre.swift; sourceTree = "<group>"; };
-		9224E6FB21242E12008BAA99 /* Mile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mile.swift; sourceTree = "<group>"; };
-		9224E6FE21243AD1008BAA99 /* Speed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speed.swift; sourceTree = "<group>"; };
+		92E8D3502128679B007EEDB7 /* Kilogram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kilogram.swift; sourceTree = "<group>"; };
+		92E8D3512128679B007EEDB7 /* Gram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gram.swift; sourceTree = "<group>"; };
+		92E8D3522128679B007EEDB7 /* Weight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
+		92E8D3532128679B007EEDB7 /* Ounce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ounce.swift; sourceTree = "<group>"; };
+		92E8D3542128679B007EEDB7 /* Pound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pound.swift; sourceTree = "<group>"; };
+		92E8D35B212867C7007EEDB7 /* Celsius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Celsius.swift; sourceTree = "<group>"; };
+		92E8D35C212867C7007EEDB7 /* Temperature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		92E8D35D212867C7007EEDB7 /* Fahrenheit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fahrenheit.swift; sourceTree = "<group>"; };
+		92E8D35E212867C7007EEDB7 /* Kelvin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kelvin.swift; sourceTree = "<group>"; };
+		92E8D364212867CF007EEDB7 /* FeetPerMin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeetPerMin.swift; sourceTree = "<group>"; };
+		92E8D365212867CF007EEDB7 /* KilometresPerHour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KilometresPerHour.swift; sourceTree = "<group>"; };
+		92E8D366212867CF007EEDB7 /* MetresPerSec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetresPerSec.swift; sourceTree = "<group>"; };
+		92E8D367212867CF007EEDB7 /* MilesPerHour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MilesPerHour.swift; sourceTree = "<group>"; };
+		92E8D368212867CF007EEDB7 /* Speed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speed.swift; sourceTree = "<group>"; };
+		92E8D36F212867D7007EEDB7 /* Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
+		92E8D370212867D7007EEDB7 /* Foot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foot.swift; sourceTree = "<group>"; };
+		92E8D371212867D7007EEDB7 /* Kilometre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kilometre.swift; sourceTree = "<group>"; };
+		92E8D372212867D7007EEDB7 /* Metre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metre.swift; sourceTree = "<group>"; };
+		92E8D373212867D7007EEDB7 /* Mile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mile.swift; sourceTree = "<group>"; };
+		92E8D374212867D7007EEDB7 /* Yard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Yard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +111,8 @@
 		921FC14B21214C950014037F /* Converter */ = {
 			isa = PBXGroup;
 			children = (
+				92E8D34E21286762007EEDB7 /* Models */,
 				92173EF921255DD800DFA87C /* Controllers */,
-				9224E6DB212415DF008BAA99 /* Model */,
 				921FC14C21214C950014037F /* AppDelegate.swift */,
 				921FC15221214C950014037F /* Main.storyboard */,
 				921FC15521214C950014037F /* Assets.xcassets */,
@@ -122,64 +122,63 @@
 			path = Converter;
 			sourceTree = "<group>";
 		};
-		9224E6DB212415DF008BAA99 /* Model */ = {
+		92E8D34E21286762007EEDB7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9224E6FD21243A9B008BAA99 /* Speed */,
-				9224E6F021242CA8008BAA99 /* Distance */,
-				9224E6E721242418008BAA99 /* Temperature */,
-				9224E6E621242405008BAA99 /* Weight */,
+				92E8D36E212867D7007EEDB7 /* Distance */,
+				92E8D363212867CF007EEDB7 /* Speed */,
+				92E8D35A212867B9007EEDB7 /* Temperature */,
+				92E8D34F21286788007EEDB7 /* Weight */,
 			);
-			name = Model;
-			path = ../../../v/Converter/Converter/Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		9224E6E621242405008BAA99 /* Weight */ = {
+		92E8D34F21286788007EEDB7 /* Weight */ = {
 			isa = PBXGroup;
 			children = (
-				9224E6DC212415DF008BAA99 /* Gram.swift */,
-				9224E6DD212415DF008BAA99 /* Kilogram.swift */,
-				9224E6DE212415DF008BAA99 /* Ounce.swift */,
-				9224E6DF212415DF008BAA99 /* Pound.swift */,
-				9224E6E0212415DF008BAA99 /* Weight.swift */,
+				92E8D3512128679B007EEDB7 /* Gram.swift */,
+				92E8D3502128679B007EEDB7 /* Kilogram.swift */,
+				92E8D3532128679B007EEDB7 /* Ounce.swift */,
+				92E8D3542128679B007EEDB7 /* Pound.swift */,
+				92E8D3522128679B007EEDB7 /* Weight.swift */,
 			);
 			path = Weight;
 			sourceTree = "<group>";
 		};
-		9224E6E721242418008BAA99 /* Temperature */ = {
+		92E8D35A212867B9007EEDB7 /* Temperature */ = {
 			isa = PBXGroup;
 			children = (
-				9224E6E821242431008BAA99 /* Temperature.swift */,
-				9224E6EA21242486008BAA99 /* Fahrenheit.swift */,
-				9224E6EC212424AD008BAA99 /* Kelvin.swift */,
-				9224E6EE21242654008BAA99 /* Celsius.swift */,
+				92E8D35B212867C7007EEDB7 /* Celsius.swift */,
+				92E8D35D212867C7007EEDB7 /* Fahrenheit.swift */,
+				92E8D35E212867C7007EEDB7 /* Kelvin.swift */,
+				92E8D35C212867C7007EEDB7 /* Temperature.swift */,
 			);
 			path = Temperature;
 			sourceTree = "<group>";
 		};
-		9224E6F021242CA8008BAA99 /* Distance */ = {
+		92E8D363212867CF007EEDB7 /* Speed */ = {
 			isa = PBXGroup;
 			children = (
-				9224E6F121242CD8008BAA99 /* Metre.swift */,
-				9224E6F321242CED008BAA99 /* Distance.swift */,
-				9224E6F521242DBC008BAA99 /* Foot.swift */,
-				9224E6F721242DDA008BAA99 /* Yard.swift */,
-				9224E6F921242DEF008BAA99 /* Kilometre.swift */,
-				9224E6FB21242E12008BAA99 /* Mile.swift */,
-			);
-			path = Distance;
-			sourceTree = "<group>";
-		};
-		9224E6FD21243A9B008BAA99 /* Speed */ = {
-			isa = PBXGroup;
-			children = (
-				9224E6FE21243AD1008BAA99 /* Speed.swift */,
-				92173EF121253C6900DFA87C /* MetresPerSec.swift */,
-				92173EF321253C8700DFA87C /* KilometresPerHour.swift */,
-				92173EF521253CA300DFA87C /* FeetPerMin.swift */,
-				92173EF721253CCB00DFA87C /* MilesPerHour.swift */,
+				92E8D364212867CF007EEDB7 /* FeetPerMin.swift */,
+				92E8D365212867CF007EEDB7 /* KilometresPerHour.swift */,
+				92E8D366212867CF007EEDB7 /* MetresPerSec.swift */,
+				92E8D367212867CF007EEDB7 /* MilesPerHour.swift */,
+				92E8D368212867CF007EEDB7 /* Speed.swift */,
 			);
 			path = Speed;
+			sourceTree = "<group>";
+		};
+		92E8D36E212867D7007EEDB7 /* Distance */ = {
+			isa = PBXGroup;
+			children = (
+				92E8D36F212867D7007EEDB7 /* Distance.swift */,
+				92E8D370212867D7007EEDB7 /* Foot.swift */,
+				92E8D371212867D7007EEDB7 /* Kilometre.swift */,
+				92E8D372212867D7007EEDB7 /* Metre.swift */,
+				92E8D373212867D7007EEDB7 /* Mile.swift */,
+				92E8D374212867D7007EEDB7 /* Yard.swift */,
+			);
+			path = Distance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,31 +253,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9224E6F621242DBC008BAA99 /* Foot.swift in Sources */,
-				9224E6E4212415DF008BAA99 /* Pound.swift in Sources */,
-				9224E6E3212415DF008BAA99 /* Ounce.swift in Sources */,
-				92173EF221253C6900DFA87C /* MetresPerSec.swift in Sources */,
-				9224E6FA21242DEF008BAA99 /* Kilometre.swift in Sources */,
-				9224E6FC21242E12008BAA99 /* Mile.swift in Sources */,
-				9224E6E2212415DF008BAA99 /* Kilogram.swift in Sources */,
-				9224E6E1212415DF008BAA99 /* Gram.swift in Sources */,
-				92173EF821253CCB00DFA87C /* MilesPerHour.swift in Sources */,
-				9224E6F421242CED008BAA99 /* Distance.swift in Sources */,
+				92E8D377212867D7007EEDB7 /* Kilometre.swift in Sources */,
+				92E8D369212867CF007EEDB7 /* FeetPerMin.swift in Sources */,
 				921FC163212159E30014037F /* WeightViewController.swift in Sources */,
-				9224E6E5212415DF008BAA99 /* Weight.swift in Sources */,
-				9224E6ED212424AD008BAA99 /* Kelvin.swift in Sources */,
-				9224E6E921242431008BAA99 /* Temperature.swift in Sources */,
-				9224E6F221242CD8008BAA99 /* Metre.swift in Sources */,
-				9224E6F821242DDA008BAA99 /* Yard.swift in Sources */,
 				921FC169212177300014037F /* SpeedViewController.swift in Sources */,
-				92173EF421253C8700DFA87C /* KilometresPerHour.swift in Sources */,
+				92E8D379212867D7007EEDB7 /* Mile.swift in Sources */,
+				92E8D360212867C7007EEDB7 /* Temperature.swift in Sources */,
+				92E8D375212867D7007EEDB7 /* Distance.swift in Sources */,
+				92E8D3562128679B007EEDB7 /* Gram.swift in Sources */,
+				92E8D362212867C7007EEDB7 /* Kelvin.swift in Sources */,
+				92E8D36A212867CF007EEDB7 /* KilometresPerHour.swift in Sources */,
+				92E8D376212867D7007EEDB7 /* Foot.swift in Sources */,
+				92E8D36D212867CF007EEDB7 /* Speed.swift in Sources */,
+				92E8D36B212867CF007EEDB7 /* MetresPerSec.swift in Sources */,
 				921FC16721216B700014037F /* DistanceViewController.swift in Sources */,
-				92173EF621253CA300DFA87C /* FeetPerMin.swift in Sources */,
-				9224E6EB21242486008BAA99 /* Fahrenheit.swift in Sources */,
+				92E8D3552128679B007EEDB7 /* Kilogram.swift in Sources */,
+				92E8D35F212867C7007EEDB7 /* Celsius.swift in Sources */,
+				92E8D378212867D7007EEDB7 /* Metre.swift in Sources */,
+				92E8D3582128679B007EEDB7 /* Ounce.swift in Sources */,
 				921FC14D21214C950014037F /* AppDelegate.swift in Sources */,
-				9224E6FF21243AD1008BAA99 /* Speed.swift in Sources */,
-				9224E6EF21242654008BAA99 /* Celsius.swift in Sources */,
+				92E8D361212867C7007EEDB7 /* Fahrenheit.swift in Sources */,
+				92E8D36C212867CF007EEDB7 /* MilesPerHour.swift in Sources */,
+				92E8D37A212867D7007EEDB7 /* Yard.swift in Sources */,
 				921FC165212167620014037F /* TemperatureViewController.swift in Sources */,
+				92E8D3592128679B007EEDB7 /* Pound.swift in Sources */,
+				92E8D3572128679B007EEDB7 /* Weight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
