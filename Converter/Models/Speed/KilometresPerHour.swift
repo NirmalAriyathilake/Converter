@@ -2,7 +2,7 @@
 //  KilometresPerHour.swift
 //  Converter
 //
-//  Created by SE on 8/16/18.
+//  Created by IT15054128 on 8/16/18.
 //  Copyright © 2018 IT15054128. All rights reserved.
 //
 
