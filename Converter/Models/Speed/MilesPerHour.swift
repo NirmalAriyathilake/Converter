@@ -15,11 +15,11 @@ class MilesPerHour: Speed {
     }
     
     static func parseMilesPerHour(_ kiloPerHr:KilometresPerHour) -> MilesPerHour{
-        return MilesPerHour(kiloPerHr.value * 54.6807)
+        return MilesPerHour(kiloPerHr.value * 0.621371)
     }
     
     static func parseMilesPerHour(_ feetPerMin:FeetPerMin) -> MilesPerHour{
-        return MilesPerHour(feetPerMin.value * 0.621371)
+        return MilesPerHour(feetPerMin.value * 0.01136363652)
     }
     
 }

@@ -11,7 +11,7 @@ import Foundation
 class FeetPerMin: Speed{
     
     static func parseFeetPerMin(_ metrePerSec:MetresPerSec) -> FeetPerMin{
-        return FeetPerMin(metrePerSec.value * 196.85)
+        return FeetPerMin(metrePerSec.value * 196.850413793)
     }
     
     static func parseFeetPerMin(_ kiloPerHr:KilometresPerHour) -> FeetPerMin{
@@ -19,7 +19,7 @@ class FeetPerMin: Speed{
     }
     
     static func parseFeetPerMin(_ milesPerHr:MilesPerHour) -> FeetPerMin{
-        return FeetPerMin(milesPerHr.value * 0.621371)
+        return FeetPerMin(milesPerHr.value * 88)
     }
     
 }
