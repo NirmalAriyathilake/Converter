@@ -29,7 +29,7 @@
                                 <rect key="frame" x="165" y="174" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtKilogramChanged:" destination="9pv-A4-QxB" eventType="editingChanged" id="TVQ-Oz-zT1"/>
                                 </connections>
@@ -44,7 +44,7 @@
                                 <rect key="frame" x="165" y="226" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtPoundChanged:" destination="9pv-A4-QxB" eventType="editingChanged" id="2eK-Ih-sY6"/>
                                 </connections>
@@ -59,7 +59,7 @@
                                 <rect key="frame" x="165" y="278" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtOunceChanged:" destination="9pv-A4-QxB" eventType="editingChanged" id="Mkx-Jf-crl"/>
                                 </connections>
@@ -68,7 +68,7 @@
                                 <rect key="frame" x="165" y="122" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtGramChanged:" destination="9pv-A4-QxB" eventType="editingChanged" id="QkJ-fG-x6N"/>
                                 </connections>
@@ -138,7 +138,7 @@
                                 <rect key="frame" x="165" y="122" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtMetreChanged:" destination="EyO-zw-mM0" eventType="editingChanged" id="I4x-JP-S6t"/>
                                 </connections>
@@ -153,7 +153,7 @@
                                 <rect key="frame" x="165" y="174" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtFootChanged:" destination="EyO-zw-mM0" eventType="editingChanged" id="9EF-wI-wDj"/>
                                 </connections>
@@ -168,7 +168,7 @@
                                 <rect key="frame" x="165" y="226" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtYardChanged:" destination="EyO-zw-mM0" eventType="editingChanged" id="2dT-gC-Xbc"/>
                                 </connections>
@@ -183,7 +183,7 @@
                                 <rect key="frame" x="165" y="276" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtKilometresChanged:" destination="EyO-zw-mM0" eventType="editingChanged" id="aaS-8i-Fpb"/>
                                 </connections>
@@ -198,7 +198,7 @@
                                 <rect key="frame" x="165" y="325" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtMileChanged:" destination="EyO-zw-mM0" eventType="editingChanged" id="Rgu-qd-YH1"/>
                                 </connections>
@@ -269,7 +269,7 @@
                                 <rect key="frame" x="165" y="122" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtMetrePerSecChanged:" destination="ok5-j9-nUu" eventType="editingChanged" id="eHc-xi-So5"/>
                                 </connections>
@@ -284,7 +284,7 @@
                                 <rect key="frame" x="165" y="174" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtFeetPerMinChanged:" destination="ok5-j9-nUu" eventType="editingChanged" id="Oy8-7F-IvV"/>
                                 </connections>
@@ -299,7 +299,7 @@
                                 <rect key="frame" x="165" y="226" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtKiloPerHrChanged:" destination="ok5-j9-nUu" eventType="editingChanged" id="ZaP-Ku-pft"/>
                                 </connections>
@@ -314,7 +314,7 @@
                                 <rect key="frame" x="165" y="278" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtMilesPerHrChanged:" destination="ok5-j9-nUu" eventType="editingChanged" id="61r-iH-bWQ"/>
                                 </connections>
@@ -378,7 +378,7 @@
                                 <rect key="frame" x="165" y="122" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtCelsiusChanged:" destination="8rJ-Kc-sve" eventType="editingChanged" id="W1k-kw-CBp"/>
                                 </connections>
@@ -393,7 +393,7 @@
                                 <rect key="frame" x="165" y="174" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtFahrenheitChanged:" destination="8rJ-Kc-sve" eventType="editingChanged" id="hGs-Cs-kwS"/>
                                 </connections>
@@ -408,7 +408,7 @@
                                 <rect key="frame" x="165" y="226" width="194" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="txtKelvinChanged:" destination="8rJ-Kc-sve" eventType="editingChanged" id="29i-Vl-3DX"/>
                                 </connections>
